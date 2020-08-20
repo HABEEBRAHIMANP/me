@@ -1,4 +1,4 @@
-<a href="https://themes.3rdwavemedia.com/bootstrap-templates/popular/devblog-free-bootstrap-4-blog-template-for-developers/" target="_blank"><img src="https://themes.3rdwavemedia.com/wp-content/uploads/2019/02/Bootstrap-Blog-Template-DevBlog-Pormo.jpg" alt="Bootstrap 4 Blog Template for Developers" /></a>
+<a href="https://themes.3rdwavemedia.com/bootstrap-templates/popular/devblog-free-bootstrap-4-blog-template-for-developers/" target="_blank"><img src="https://themes.3rdwavemedia.com/wp-content/uploads/2019/02/Bootstrap-Blog-Template-DevBlog-Pormo.jpg" alt="Habeeb's Tech Support Page" /></a>
 
 ## Theme Details & Demo
 
