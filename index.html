@@ -542,7 +542,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		<div class="container">	
 				<h3 class="w3l-heading">contact</h3>
 				<div class="w3_agile-contact  jarallax text-center">
-					<form action="https://docs.google.com/forms/d/e/1FAIpQLSfSAHnchlNcWwfViwD0d8PhHxP_WdbnyxWu5n5j8lnPLVVvKQ/formResponse" method="get">
+					<form id="submit-form" action="https://docs.google.com/forms/d/e/1FAIpQLSfSAHnchlNcWwfViwD0d8PhHxP_WdbnyxWu5n5j8lnPLVVvKQ/formResponse" method="get">
 						<input type="text" placeholder="Name" name="entry.1659359308" class="name" required>
 						<input type="text" placeholder="Phone Number" name="entry.749364311" class="name" required>
 						<input type="email" placeholder="Email" name="entry.1903530629" class="email" required>
@@ -564,7 +564,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <!-- footer -->
 <div class="agileits_w3layouts-footer text-center">
 	<div class="container">
-		<p>&copy; 2020 HABEEB. All rights reserved | Powerd by <a href="https://habeeb.live">Habeebrahimanp</a></p>
+		<p>&copy; 2020 HABEEB. All rights reserved | Powerd by <a href="https://habeeb.xyz">Habeebrahimanp</a></p>
 	</div>
 </div>	
 <!-- //footer -->	
@@ -599,6 +599,25 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <!-- start-smoth-scrolling -->
 	<script type="text/javascript" src="js/easing.js"></script>
 <!-- //here ends scrolling icon -->
+<script>
+	$("#submit-form").submit((e)=>{
+		e.preventDefault()
+		$.ajax({
+			url:"https://script.google.com/macros/s/AKfycbzArp3qvKUMZZjirFuaCjY3PzwsXWcEtzt_RjghrrfmpOwDx0BxZpPvpmSD8XMFKkrSDg/exec",
+			data:$("#submit-form").serialize(),
+			method:"post",
+			success:function (response){
+				alert("Your Message has been submitted successfully, Thank you for connecting HABEEB RAHIMAN P")
+				window.location.reload()
+				//window.location.href="https://google.com"
+			},
+			error:function (err){
+				alert("Something Error")
+
+			}
+		})
+	})
+</script>
 	
 
 </body>
